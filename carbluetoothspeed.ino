@@ -11,7 +11,7 @@ void setup() {
 }
 
 void loop() {
-  int potentiometer = analogRead(A0);
+  int potentiometer = analogRead(A1);
   int value = potentiometer / 4;
 
   analogWrite(10, value);
